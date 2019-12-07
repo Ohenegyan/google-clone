@@ -1,0 +1,141 @@
+ html, body{
+    height: 100%;
+}
+
+
+#content{
+    
+    position: relative;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: scroll;
+
+}
+#nav-bar{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    margin-top: 20px;
+}
+#nav-bar a{
+    display: inline;
+    
+    text-decoration: none;
+    color: #000;
+}
+
+li{
+    display: inline;
+    padding: 5px;
+    
+   
+    
+}
+#rnb{
+    color:red;
+}
+#nav-bar li button{
+    width: 70px;
+    height: 30px;
+    background-color: #4285f2;
+    color: white;
+
+}
+
+   
+
+footer{
+    margin: auto;
+    font-size: 13px;
+    
+    
+}
+#fr{
+    float: right;
+}
+
+#ftr a{
+    float: right;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+
+    color: #000;
+}
+
+#ftl a{
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+}
+footer{
+    position: fixed; 
+    padding: 10px 10px 0px 10px; 
+    bottom: 0; 
+    width: 100%; 
+    color: #000;         
+    height: 40px; 
+    background: #f2f2f2;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+#gg-img{
+    margin-top: 109px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#gg-img img{
+    height: 92px;
+    width: 272px;
+}
+#search-bar{
+    position: relative; 
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#input{
+    height: 20px;
+    margin: 0;
+    padding-left: 30px;
+
+}
+#img-icon{
+    position: absolute;
+    bottom: 12px;
+    left: 180px;
+    width: 10px;
+    height: 10px;
+}
+
+#search-bar input{
+    width: 564px;
+    margin: 0 auto;
+    padding-top: 6px;
+    height: 35px;
+    border-radius: 25px;
+    border:2px solid #f2f2f2;
+}
+
+#lucky{
+    text-align: center;
+    margin-top: 25px;
+   
+   
+}
+
+#lucky input{
+    margin-left: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-size: small;
+}
